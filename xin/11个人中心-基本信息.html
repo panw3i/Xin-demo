@@ -1,0 +1,307 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11个人中心-基本信息</title>
+<link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
+     <!--ie6兼容-->
+    <!--[if IE 6]>
+        <script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script type="text/javascript">
+        DD_belatedPNG.fix('*');
+        </script>
+    <![endif]-->  
+    <!--[if IE]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<!-- 头部内容 begin -->
+    <div class="header col-12">
+        <div class="container">
+            <p class="pull-left">从电脑上导入书籍</p>
+            <ul class="pull-right">
+                <li><a href="">登录<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                <li><a href="">注册</a></li>
+                <li><a href="">作者中心</a></li>
+                <li><a href="">充值</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部内容 end -->
+
+    <!-- 搜索内容 begin -->
+    <div class="search col-12">
+        <div class="container">
+            <img src="images/logo.png" class="logo pull-left"/>
+            <form method="post" action="" class="Myform pull-left">
+                <input type="text" placeholder="搜索数十万好书"/>
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+            <dl class="head_book pull-righ personat_book">
+                <dd class="pull-right">我要当作家</dd>
+            </dl>
+        </div>
+    </div>
+    <!-- 搜索内容 end -->
+
+    <!-- 导航菜单begin -->
+    <div class="nav container">
+        <ul id="nav">
+            <li class="on"><a href="index.html">首页</a></li>
+            <li><a href="书库.html">书库</a></li>
+            <li><a href="排行榜.html">排行榜</a></li>
+            <li><a href="">作者福利</a></li>
+            <li><a href="">手机网站</a></li>
+        </ul>
+    </div>
+    <!-- 导航菜单end -->
+
+    <!-- 个人中心 begiin -->
+    <div class="information_main col-12">
+        <div class="container">
+            <!-- 个人信息 begin -->
+            <div class="personal_information pull-left">
+                <div class="top">
+                    <img src="images/persona/personal_pic1.jpg" />
+                    <p>书友a6163120</p>
+                    <p>id 1043124</p>
+                    <p><font color="#3bb296">45.0点券</font> <font color="#e8718c"> 0.0 书券</font></p>
+                </div>
+
+                <!-- 个人信息列表 begin -->
+                <div class="personal_information_menu">
+                    <ul>
+                        <li>
+                            <h3 style="background-position: 50px 12px;">个人信息</h3>
+                            <a href="#" class="on">基本信息</a>
+                            <a href="#">修改密码</a>
+                        </li>
+                        <li>
+                            <h3 style="background-position: 50px -100px;">我的书架</h3>
+                            <a href="#">默认书架</a>
+                            <a href="#">最近阅读</a>
+                            <a href="#">我的订阅</a>
+                        </li>
+                        <li>
+                            <h3 style="background-position: 50px -253px;">账户管理</h3>
+                            <a href="#">我的充值</a>
+                            <a href="#">充值记录</a>
+                            <a href="#">消费记录</a>
+                        </li>
+                        <li>
+                            <h3 style="background-position: 50px -405px;">我的消息</h3>
+                        </li>
+                        <li>
+                            <h3 style="background-position: 50px -444px;">我要当作家</h3>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 个人信息列表 end -->
+            </div>
+            <!-- 个人信息 end -->
+
+            <!-- 基本信息 begin -->
+            <div class="basic_information pull-right">
+                <div class="title">
+                    <h4>基本信息</h4>
+                </div>
+
+                <ul class="basic_information_con">
+                    <li>
+                        <dl>
+                            <dt>用户名：</dt>
+                            <dd>
+                                <p>a6163120</p>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>性别：</dt>
+                            <dd>
+                                <p><input type="radio" checked />男&nbsp; &nbsp;&nbsp;<input type="radio" />女</p>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>我的昵称：</dt>
+                            <dd>
+                                <p><input type="text" placeholder="心信文学网" /></p>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>我的头像：</dt>
+                            <dd>
+                                <p>
+                                    <img src="images/persona/personal_pic1.jpg" class="uploadImg" id="productImageupload">
+                                    <input type="file" id="productImagefile" onchange="javascript:productImagePic();" value="选择文件" />
+                                </p>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>我的标签：</dt>
+                            <dd>
+                                <p class="tag col-12">
+                                    <span>低调<i>×</i></span>
+                                    <span>加班<i>×</i></span>
+                                    <span>帅锅<i>×</i></span>
+                                    <span>Duang!<i>×</i></span>
+                                </p>
+                                <div class="clearifx"></div>
+                                <div class="tag_list col-12">
+                                    <a href="javascript:;">女神</a>
+                                    <a href="javascript:;">高富帅</a>
+                                    <a href="javascript:;">加班</a>
+                                    <a href="javascript:;">单身</a>
+                                    <a href="javascript:;">技术宅</a>
+                                    <a href="javascript:;">纠结ing</a>
+                                    <a href="javascript:;">失恋ing</a>
+                                    <a href="javascript:;">减肥ing</a>
+                                    <a href="javascript:;">纠结ing</a>
+                                    <a href="javascript:;">失恋ing</a>
+                                    <a href="javascript:;">减肥ing</a>
+                                    <a href="javascript:;">八卦</a>
+                                    <a href="javascript:;">低调</a>
+                                    <a href="javascript:;">起床气</a>
+                                    <a href="javascript:;">御姐</a>
+                                    <a href="javascript:;">萌正太</a>
+                                    <a href="javascript:;">帅锅</a>
+                                    <a href="javascript:;">萌萌哒</a>
+                                    <a href="javascript:;">白富美</a>
+                                    <a href="javascript:;">帅锅</a>
+                                    <a href="javascript:;">萌萌哒</a>
+                                    <a href="javascript:;">白富美</a>
+                                </div>
+                                <p class="custom_tag col-12">
+                                    <input type="text" value="添加自定义标签 "> 
+                                    <input type="button" value="添加"> <em>(最多可以添加4个标签)</em>
+                                </p>
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li>
+                        <dl>
+                            <dt>个性签名：</dt>
+                            <dd>
+                                <textarea>当时我就蒙逼了﹌○﹌</textarea>
+                            </dd>
+                        </dl>
+                    </li>
+
+                     <li>
+                        <dl>
+                            <dt>出生年月：</dt>
+                            <dd>
+                                <select>
+                                    <option value="请选择" selected="true">请选择</option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                                <select>
+                                    <option value="请选择" selected="true">请选择</option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                                <select>
+                                    <option value="请选择" selected="true">请选择</option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                                <input type="button" value="确认修改" class="Confirm " />
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <!-- 基本信息 end -->
+        </div>
+    </div>
+    <!-- 个人中心 end -->
+
+    <script type="text/javascript">
+            //productImg文件上传
+            function productImagePic(){
+                var fileList = document.getElementById("productImagefile").files.length;
+                if(fileList <= 0){
+                    alert("请至少选择一张图片上传");
+                    return false;
+                }
+                $("#productImageupload").attr('src',window.URL.createObjectURL(document.getElementById("productImagefile").files.item(0)));
+            }
+    </script>
+
+
+<!-- 友情链接 begin -->
+    <div class="links">
+    <div class="container">
+            <h5>友情链接</h5>
+            <ul>
+                <li><a href="">暗夜文学网 </a></li>
+                <li><a href=""> 红袖添香</a></li>
+                <li><a href="">龙的天空</a></li>
+                <li><a href="">起点 </a></li>
+                <li><a href="">红薯小说网</a></li>
+                <li><a href=""> 酷匠网 </a></li>
+                <li><a href="">九库文学</a></li>
+                <li><a href="">浩阅文学网</a></li>
+                <li><a href="">话本</a></li>
+                <li><a href="">汤圆创作</a></li>
+                <li><a href="">互觅交友社区 </a></li>
+                <li><a href="">魔情小说网 </a></li>
+                <li><a href="">福利 </a></li>
+                <li><a href="">兽性总裁要够没 </a></li>
+                <li><a href="">腹黑总裁太凶猛 </a></li>
+                <li><a href="">第六只尸虫</a></li>
+                <li><a href="">书丛网 </a></li>
+                <li><a href="">悠空网 </a></li>
+                <li><a href="">安卓读书</a></li>
+                <li><a href="">蜜阅书苑</a></li>
+                <li><a href=""> 悦读</a></li>
+                <li><a href="">坊阅读小说网</a></li>
+                <li><a href="">巨匠网 </a></li>
+                <li><a href=""> 朵米网 </a></li>
+                <li><a href="">沃读文学网  </a></li>
+                <li><a href="">龙阅读 </a></li>
+                <li><a href="">藤痕书院</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 友情链接 end -->
+
+    <!-- footer begin -->
+    <div class="footer">
+        <div class="footer_nav">
+            <ul>
+                <li><a href="">首页 </a></li>
+                <li><a href="">书库</a></li>
+                <li><a href="">排行榜</a></li>
+                <li><a href="">作者福利 </a></li>
+                <li><a href="">手机网站 </a></li>
+            </ul>
+        </div>
+        <p>客服邮箱：kefu@xinxinwx.com 电话：400-0000000 QQ：1234567</p>
+        <p>网站备案/许可证号:粤ICP备0000000号</p>
+        <p>Copyright © 2016 xinxinwx.com All rights reserved.</p>
+        <p>心信文学小说网  联系地址：心信文学小说网</p>
+    </div>
+    <!-- footer end -->
+</body>
+</html>

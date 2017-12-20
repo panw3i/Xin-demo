@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*阅读页面*/
+.Works_reading_page{
+    overflow: hidden;
+    background: #ededed;
+    padding:16px 0 30px;
+    position: relative;
+}
+.Works_reading_page .container{
+    background: #fff;
+    overflow: hidden;
+    padding:50px 0 0;
+    position: relative;
+}
+.Works_reading_page .container .title{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px dashed #4c4c4c;
+    padding-bottom: 22px;
+}
+.Works_reading_page .container .title h3{
+    font-size: 24px;
+    color:#4c4c4c;
+    margin-bottom: 18px;
+}
+.Works_reading_page .container .title  span{
+    color:#757575;
+}
+.Works_reading_page .container .page_con{
+    position: absolute;
+    top:58px;
+    right: 30px;
+}
+.Works_reading_page .container .page_con li{
+    float: left;
+    width: 63px;
+    height: 33px;
+    background: #b9bcbd;
+    text-align: center;
+    line-height: 33px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.Works_reading_page .container .page_con li a{
+    color:#fff;
+}
+
+/*文字内容*/
+.Works_reading_page .container .txt{
+    padding:32px 34px;
+    font-size: 14px;
+    color:#757575;
+    line-height: 42px;
+}
+.Works_reading_page .container .txt p{
+    text-indent: 2em;
+}
+.Works_reading_page .container .reward{
+    font-size: 52px;
+    color:#ff9c00;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border:1px solid #cdcdcd;
+    text-align: center;
+    line-height: 100px;
+    background: #f8f8f8;
+    margin:35px auto 50px;
+}
+
+/*页低*/
+.Works_reading_page .container .age_low{
+    height: 50px;
+    background: #fdf4e2;
+    border-top: 1px solid #cccccc;
+    line-height: 50px;
+    padding:0 15px;
+}
+.Works_reading_page .container .age_low p.pull-left{
+    font-size: 14px;
+    color:#000000;
+}
+.Works_reading_page .container .age_low p.pull-right{
+    font-size: 14px;
+    color:#666666;
+}
+.Works_reading_page .container .age_low p span{
+    background: url(../images/work/respond.png) no-repeat;
+    padding-left: 28px;
+}
+.Works_reading_page .container .age_low p .respond{
+    background-position: 0 0;
+}
+.Works_reading_page .container .age_low p .tip{
+    background-position: -109px 0;
+}
+.Works_reading_page .container .age_low p .trample{
+    background-position: -199px 0;
+}
+
+/*工具条*/
+.Works_reading_page .toolbar{
+    position: fixed;
+    top:261px;
+    width: 73px;
+    overflow: hidden;
+    background: #e7e5dc;
+    padding-bottom: 20px;
+}
+.Works_reading_page .toolbar ul li{
+    text-align: center;
+    color:#333;
+    margin-top: 10px;
+}
+.Works_reading_page .toolbar ul li a{
+    display: block;
+}
+.Works_reading_page .toolbar ul li .on{
+    background: #fff;
+}
+.Works_reading_page .toolbar ul li a:hover{
+    background: #fff;
+}
+.Works_reading_page .toolbar ul li span{
+    width: 32px;
+    height: 42px;
+    display: block;
+    background: url(../images/toolbar_icon.png) no-repeat;
+    margin:auto;
+}
+
+/*目录弹窗*/
+.Directory_popup_window{
+    width: 665px;
+    height: 580px;
+    background: #fff;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+    position: fixed;
+    top:160px;
+    right: 0;
+    padding:0 12px 16px;
+    display: none;   
+}
+.Directory_popup_window .catalog{
+    height: 60px;
+    border-bottom: 3px solid #eaeaea;
+    font-size: 18px;
+    color:#717171;
+    line-height: 60px;
+    font-weight: bold;
+}
+.Directory_popup_window .catalog_con{
+    width: 100%;
+    height: 494px;
+    overflow-y:scroll;
+    margin-top: 10px;
+}
+.Directory_popup_window .catalog_con ul li{
+    width: 50%;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+    color:#848484;
+    border-bottom: 1px dashed #cccccc;
+    padding-left: 16px;
+}
+.Directory_popup_window .catalog_con ul li a{
+    color:#848484;
+}
+.Directory_popup_window .catalog_con ul li a:hover{
+    text-decoration: underline;
+}
+.Directory_popup_window .catalog_con ul li span{
+    padding-right: 10px;
+    display: block;
+    float: left;
+    text-align: right;
+    margin-right: 16px;
+    width: 32px;
+}

@@ -1,0 +1,456 @@
+/*标签搜索*/
+.Tags_Search{
+    margin-top: 20px;
+   border:1px solid #9b9b9b;
+   overflow: hidden;
+}
+.Tags_Search .Tags_Search_con{
+    width: 90%;
+    height: 107px;
+    overflow: hidden;
+}
+.Tags_Search ul{
+    border-right: 1px solid #9b9b9b;
+    overflow: hidden;
+    padding:15px 10px;
+    width: 100%;
+    position: relative;
+    display: none;
+}
+.Tags_Search ul li{
+    float: left;
+    font-size: 12px;
+    margin-right: 24px;
+    line-height: 25px;
+}
+
+.Search_btn{
+    padding-top: 15px;
+    width: 10%;
+}
+.Search_btn a{
+    width: 72px;
+    height: 24px;
+    display: block;
+    background: #0b529f;
+    line-height: 24px;
+    text-align: center;
+    color:#fff;
+    font-size: 14px;
+    margin:10px auto 0;
+}
+
+/*主编推荐 starat*/
+.index_common {
+    overflow: hidden;
+    margin: 30px auto 30px;
+}
+.index_common .con_left{
+    width: 73%;
+}
+.index_common .con_left .title{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #ebe6e1;
+    font-size: 16px;
+    color:#000;
+    overflow: hidden;
+}
+.con_left .title span{
+    /*display: block;
+    width: 78px;
+    height: 30px;
+    */
+    border-bottom: 2px solid #0b529f
+}
+
+.index_common .book_article{
+    margin-top: 15px;
+    height: 240px;
+}
+.index_common .book_article li{
+    float: left;
+    width: 50%;
+}
+.index_common .book_article li dl dt{
+    width: 45%;
+    float: left;
+}
+.index_common .book_article li dl dd{
+    float: right;
+    width: 52%;
+}
+.index_common .book_article li dl dd h5{
+    font-size: 16px;
+    color:#4c4c4c;
+    line-height: 38px;
+}
+.index_common .book_article li dl dd span{
+    color: #a9a9a9;
+}
+.index_common .book_article li dl dd p.txt{
+    font-size: 12px;
+    color: #747474;
+    margin-top: 15px;
+    line-height: 18px;
+}
+.index_common .book_article li dl dd p.book_btn{
+    margin-top: 50px;
+}
+.index_common .book_article li dl dd p.book_btn a{
+    width: 80px;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 12px;
+    text-indent: 1.6em;
+}
+
+/*收藏*/
+.index_common .book_article li dl dd p.book_btn .collect{
+    border:1px solid #fed886;
+    color: #fed886;
+    background: url(../images/wjx.png) no-repeat 10px;
+}
+
+/*阅读*/
+.index_common .book_article li dl dd p.book_btn .read{
+    border:1px solid #4598ff;
+    color: #4598ff;
+    background: url(../images/book.png) no-repeat 8px 6px;
+}
+.index_common .book_article li dl dd p.book_btn .recommend{
+    border:1px solid #b47a6e;
+    color: #b47a6e;
+    background: url(../images/like.png) no-repeat 11px 2px;
+}
+.index_common .book_article li dl dd p.book_btn .section{
+    border:1px solid #67b1ca;
+    color: #67b1ca;
+    background: url(../images/section.png) no-repeat 8px 9px;
+}
+.index_common .book_article li dl dd p.book_btn .details{
+    border:1px solid #857cb7;
+    color: #857cb7;
+    background: url(../images/work/details.png) no-repeat 10px;
+}
+.index_common .book_article li dl dd p.book_btn .catalog{
+    border:1px solid #299ebf;
+    color: #299ebf;
+    background: url(../images/work/catalog.png) no-repeat 10px;
+}
+.index_common .book_grids{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.index_common .book_grids dl{
+    border-top: 1px dashed #e6e6e6;
+    overflow: hidden;
+    padding:8px;
+}
+.index_common .book_grids dl dt{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    line-height: 40px;
+}
+.index_common .book_grids dl dd{
+    color: #747474;
+    line-height: 22px;
+}
+
+/*右边内容*/
+.con_right{
+    width: 24%!important;
+    overflow: hidden;
+}
+.index_common .con_right .title{
+    height: 27px;
+    line-height: 27px;
+}
+.index_common .con_right .title h4{
+    width: 50%;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    color:#000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.index_common .con_right .title .on{
+    background: url(../images/bg.png) no-repeat center;
+    color: #0b529f;
+}
+
+.image-text_con{
+    overflow: hidden;
+}
+.image-text{
+    overflow: hidden;
+    border:1px solid #ebe6e1;
+    margin-top: 10px;
+    display: none;
+}
+.image-text ul li dl{
+    padding:0 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #ebe6e1;
+}
+.image-text ul li dl dt{
+    font-size: 14px;
+    color: #4c4c4c;
+    height: 38px;
+    line-height: 38px;
+}
+.image-text ul li:nth-child(1) dt span,.image-text ul li:nth-child(2) dt span,.image-text ul li:nth-child(3) dt span{
+    background-color: #eb6100
+}
+.image-text ul li dl dt span{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: #d89a33;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.image-text ul li dl dd{
+    overflow: hidden;
+    display: none;
+}
+.image-text ul li:last-child dl{
+    border-bottom: 0;
+}
+.image-text ul li:first-child dl dd{
+    display: block;
+}
+.image-text ul li dl dd img{
+    width: 30%;
+    float: left;
+}
+.image-text ul li dl dd .text{
+    width: 66%;
+    float: right;
+}
+.image-text ul li dl dd .text span{
+    color: #a9a9a9;
+}
+.image-text ul li dl dd .text p{
+    font-size: 12px;
+    color: #747474;
+    margin-top: 15px;
+    line-height: 18px;
+}
+.image-text ul li h6{
+    font-size: 14px;
+    color: #665555;
+    font-weight: bold;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.image-text ul li .more{
+    background: url(../images/more_icon.jpg) no-repeat 0 10px;
+    text-indent: 1.5em;
+    display: block;
+    width: 100px;
+    height: 30px;
+}
+
+/*现代言情*/
+.Modern_romance{
+    width: 56%;
+    float: right;
+}
+.Modern_romance dl dt a{
+    font-size: 16px!important;
+    color: #4c4c4c!important;
+    font-weight: bold!important;
+}
+.Modern_romance dl:first-child{
+    border-top: 0!important
+}
+.Modern_romance dl dd{
+    color:#333!important;
+}
+.flash{
+    width: 39%;
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+}
+.flash .lunbo{
+    height: 350px;
+}
+.flash .lunbo ul{
+    width: 240px;
+    height: 340px;
+    float: left;
+    overflow: hidden;
+    float: left;
+}
+.flash .lunbo ul li{
+    display: none;
+    opacity: 0;
+}
+.flash .lunbo ul li:first-child{
+    display: block;
+    opacity: 1;
+}
+.flash .lunbo .iconf{
+    float: left;
+    width: 50px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.flash .lunbo .iconf li{
+    margin-bottom: 7px;
+    width: 50px;
+    height: 62px;
+    overflow: hidden;
+}
+.flash .lunbo .iconf .on{
+    border:1px solid #eb6100;
+}
+.flash .lunbo .iconf .on img{
+    opacity: 1;
+}
+.flash .lunbo .iconf li img{
+    width: 50px;
+    height: 62px;
+    opacity: 0.5
+}
+.flash .describe {
+    overflow: hidden;
+    height: 96px;
+}
+.flash .describe p{
+    display: none;
+}
+.flash .describe p:first-child{
+    display: block;
+}
+.flash .describe .title{
+   font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f2f2f2;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.flash .describe .title a{
+    color: #666666;
+}
+.flash .describe .txt{
+    font-size: 12px;
+    color:#666666;
+    display: block;
+    width: 100%;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+/*更新图书*/
+.Update_List{
+    overflow:hidden;
+    margin-top: 20px;
+}
+.Update_List .title{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #ebe6e1;
+    font-size: 16px;
+    color: #000;
+}
+.Update_List .title p{
+    display: inline-block;
+}
+.Update_List .title a{
+    color: #969191;
+    font-size: 14px;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    padding:0 10px;
+}
+.Update_List .title .on{
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid #0b529f;
+}
+.Tab_article{
+    overflow: hidden;
+}
+.Update_List_article{
+    display: none;
+    height: auto!important;
+}
+
+.Update_List_article li{
+    clear: both;
+    width: 100%!important;
+    position: relative;
+}
+.Update_List_article li dl{
+    width: 768px!important;
+    float: left;
+
+}
+
+/*随机*/
+.Novel_title .tags0{}
+.Novel_title .tags1{color:#0b529f;font-size: 12px;}
+.Novel_title .tags2{color:#000;font-size: 12px;}
+.Novel_title .tags3{color:#66d03c;font-size: 12px;}
+.Novel_title .tags4{ font-size:12px;color: #e876e4;}
+.Novel_title .tags5{color:#f6a200;font-size: 12px;}
+.Novel_title .tags6{color:#058102;font-size: 12px;}
+.Novel_title .tags7{color:#ff0000;font-size: 12px;}
+.Novel_title .tags8{color:#3679f5;font-size: 12px;}
+.Novel_title .tags9{color:#da00fa;font-size: 12px;}
+.Novel_title .tags10{color:#757575;font-size: 12px;}
+.Novel_title .tags11{color:#0b529f;font-size: 12px;}
+.Novel_title .tags12{color:#39b1f6;font-size: 12px;}
+
+.Update_List_article li .Novel_title{
+    float: right;
+    margin: 0px 8px 0;
+}
+.Update_List_article li .Novel_title > a{
+    display:block;
+    padding:6px 5px;
+    border:1px solid #ddd;
+    border-radius: 3px; 
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.Update_List_article li dl dt{
+    width: 120px!important;
+}
+.Update_List_article li dl dt img{
+    width: 100%;
+}
+.Update_List_article li dl dd{
+    width: 628px!important;
+}
+.Update_List_article li dl dd span{
+    margin-right: 25px;
+}
+.Update_List_article li dl dd .book_btn{
+    margin-top: 20px!important;
+}
+.Update_List_article li{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+}
+

@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>28作者后台-作品更新</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/function_login.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+<!-- 头部  -->
+    <div class="header col-12">
+        <div class="container">
+            <img src="images/function_login/function_login.png"  class="pull-left"/>
+            <h4 class="pull-left">|&nbsp;&nbsp; 作者中心</h4>
+            <p class="pull-right"><font color="#ffea00">a6163120</font>&nbsp;&nbsp;   | &nbsp;&nbsp;  <span>切换用户</span></p>
+        </div>
+    </div>
+
+    <!-- 主体 -->
+    <div class="container">
+        <div class="backstage_main mt20">
+        <!-- 左边 -->
+            <div class="backstage_main_left pull-left">
+                <ul>
+                    <li><span style="background-position:0 0;"></span><a href="">公     告</a></li>
+                    <li><span style="background-position:0 -48px;"></span><a href="">新建作品</a></li>
+                    <li class="on"><span style="background-position:0 -90px;"></span><a href="">作品管理</a></li>
+                    <li><span style="background-position:0 -135px;"></span><a href="">作家信息</a></li>  
+                    <li><span style="background-position:0 -180px;"></span><a href="">收入管理</a></li>
+                    <li><span style="background-position:0 -227px;"></span><a href="">书评管理</a></li>
+                </ul>
+            </div>
+
+            <!-- 右边 -->
+            <div class="backstage_main_right pull-right">
+                 <div class="title">
+                    <h4>作品更新</h4>
+                </div>
+
+               <table cellpadding="5" cellspacing="0" border="0"  class="col-12 Work_management mt20">
+                        <caption>《机灵宝宝争宠》</caption>
+                        <thead>
+                            <tr>
+                                <th colspan="8" align="center">已发表章节</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                                <td width="5%">1</td>
+                                <td>引子</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                                <td width="2%">2.</td>
+                                <td align="left" width="15%">第一章 噩梦夺魂</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td>引子</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                                <td>4.</td>
+                                <td>第一章 噩梦夺魂</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>5.</td>
+                                <td>引子</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                                <td>6.</td>
+                                <td>第一章 噩梦夺魂</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                            </tr>
+
+                             <tr>
+                                <td>7.</td>
+                                <td>引子</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                                <td>8.</td>
+                                <td>第一章 噩梦夺魂</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9.</td>
+                                <td>引子</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                                <td>10.</td>
+                                <td>第一章 噩梦夺魂</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>11.</td>
+                                <td>引子</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                                <td>12.</td>
+                                <td>第一章 噩梦夺魂</td>
+                                <td>
+                                    <span class="revamp">修改</span>
+                                    <span class="remove">删除</span>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <!-- 新增章节 -->
+                    <div class="new_chapter mt20">
+                        <h4>新增章节</h4>
+                        <ul>
+                            <li>章节名称：&nbsp;&nbsp;<input type="text" class="section_name"/></li>
+                            <li>章节内容：&nbsp;&nbsp;<textarea cols="110"></textarea></li>
+                            <li>收费情况：&nbsp;&nbsp;<input type="radio" name="" checked /></li>
+                            <li>本章节价格：<input type="text" class="section_name" onkeyup="value=value.replace(/[^\d]/g,'') " 
+                            onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" ID="Text2" NAME="Text2"/></li>
+                            <li>字数统计：&nbsp;&nbsp;<textarea cols="110" style="height:180px;" id="word_count" maxlength="500"></textarea>
+                                <em style="font-style:normal;padding-left:5em;" id="length">已输入字符： 0 字</em>
+                            </li>
+                            <li colspan="8">
+                                <p><button>保存</button><button>发表</button></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <br/>
+                    <div class="page">
+                        <ul>
+                            <li><a href="" class="on">上一页</a></li>
+                            <li><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="###">...</a></li>
+                            <li><a href="">下一页</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- 友情链接 begin -->
+    <div class="links">
+    <div class="container">
+            <h5>友情链接</h5>
+            <ul>
+                <li><a href="">暗夜文学网 </a></li>
+                <li><a href=""> 红袖添香</a></li>
+                <li><a href="">龙的天空</a></li>
+                <li><a href="">起点 </a></li>
+                <li><a href="">红薯小说网</a></li>
+                <li><a href=""> 酷匠网 </a></li>
+                <li><a href="">九库文学</a></li>
+                <li><a href="">浩阅文学网</a></li>
+                <li><a href="">话本</a></li>
+                <li><a href="">汤圆创作</a></li>
+                <li><a href="">互觅交友社区 </a></li>
+                <li><a href="">魔情小说网 </a></li>
+                <li><a href="">福利 </a></li>
+                <li><a href="">兽性总裁要够没 </a></li>
+                <li><a href="">腹黑总裁太凶猛 </a></li>
+                <li><a href="">第六只尸虫</a></li>
+                <li><a href="">书丛网 </a></li>
+                <li><a href="">悠空网 </a></li>
+                <li><a href="">安卓读书</a></li>
+                <li><a href="">蜜阅书苑</a></li>
+                <li><a href=""> 悦读</a></li>
+                <li><a href="">坊阅读小说网</a></li>
+                <li><a href="">巨匠网 </a></li>
+                <li><a href=""> 朵米网 </a></li>
+                <li><a href="">沃读文学网  </a></li>
+                <li><a href="">龙阅读 </a></li>
+                <li><a href="">藤痕书院</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 友情链接 end -->
+
+    <!-- footer begin -->
+    <div class="footer">
+        <div class="footer_nav">
+            <ul>
+                <li><a href="">首页 </a></li>
+                <li><a href="">书库</a></li>
+                <li><a href="">排行榜</a></li>
+                <li><a href="">作者福利 </a></li>
+                <li><a href="">手机网站 </a></li>
+            </ul>
+        </div>
+        <p>客服邮箱：kefu@xinxinwx.com 电话：400-0000000 QQ：1234567</p>
+        <p>网站备案/许可证号:粤ICP备0000000号</p>
+        <p>Copyright © 2016 xinxinwx.com All rights reserved.</p>
+        <p>心信文学小说网  联系地址：心信文学小说网</p>
+    </div>
+    <!-- footer end -->
+</body>
+</html>

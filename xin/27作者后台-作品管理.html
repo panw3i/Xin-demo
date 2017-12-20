@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>27作者后台-作品管理</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/function_login.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+<!-- 头部  -->
+    <div class="header col-12">
+        <div class="container">
+            <img src="images/function_login/function_login.png"  class="pull-left"/>
+            <h4 class="pull-left">|&nbsp;&nbsp; 作者中心</h4>
+            <p class="pull-right"><font color="#ffea00">a6163120</font>&nbsp;&nbsp;   | &nbsp;&nbsp;  <span>切换用户</span></p>
+        </div>
+    </div>
+
+    <!-- 主体 -->
+    <div class="container">
+        <div class="backstage_main mt20">
+        <!-- 左边 -->
+            <div class="backstage_main_left pull-left">
+                <ul>
+                    <li><span style="background-position:0 0;"></span><a href="">公     告</a></li>
+                    <li><span style="background-position:0 -48px;"></span><a href="">新建作品</a></li>
+                    <li class="on"><span style="background-position:0 -90px;"></span><a href="">作品管理</a></li>
+                    <li><span style="background-position:0 -135px;"></span><a href="">作家信息</a></li>
+                    <li><span style="background-position:0 -180px;"></span><a href="">收入管理</a></li>
+                    <li><span style="background-position:0 -227px;"></span><a href="">书评管理</a></li>
+                </ul>
+            </div>
+
+            <!-- 右边 -->
+            <div class="backstage_main_right pull-right">
+                 <div class="title">
+                    <h4>作品管理</h4>
+                </div>
+               <table cellpadding="5" cellspacing="0" border="0"  class="col-12 Work_management">
+                        <thead>
+                            <tr>
+                                <th>书号 </th>
+                                <th>书名  </th>
+                                <th>作品类型</th>
+                                <th>进度 </th>
+                                <th>授权状态</th>
+                                <th>审核状态</th>
+                                <th>相关操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>001</td>
+                                <td>《心信文学作品》</td>
+                                <td>都市言情</td>
+                                <td>连载中</td>
+                                <td>普通授权</td>
+                                <td>审核中</td>
+                                <td>
+                                    <span class="new">更 新</span>
+                                    <span class="series">编 辑</span>
+                                    <span class="sale">申请上架</span>
+                                    <span class="signing">申请签约</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>002</td>
+                                <td>《心信文学作品》</td>
+                                <td>都市言情</td>
+                                <td class="end">已完结</td>
+                                <td>普通授权</td>
+                                <td class="end">通过</td>
+                                <td>
+                                    <span class="new">更 新</span>
+                                    <span class="series">编 辑</span>
+                                    <span class="sale">申请上架</span>
+                                    <span class="succeed">成功签约</span>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td>003</td>
+                                <td>《心信文学作品》</td>
+                                <td>都市言情</td>
+                                <td>连载中</td>
+                                <td>普通授权</td>
+                                <td class="not">未通过</td>
+                                <td>
+                                    <span class="new">更 新</span>
+                                    <span class="series">编 辑</span>
+                                    <span class="sale">申请上架</span>
+                                    <span class="signing">申请签约</span>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+
+    <!--申请签约弹窗 begin -->
+    <div class="signing_popup">
+        <h4></h4>
+        <p>确认申请签约</p>
+        <button class="submit_applications">提交申请</button>
+    </div>
+    <!-- 遮罩层 -->
+    <div class="mask_layer"></div>
+    <!--申请签约弹窗 end -->
+
+    <script type="text/javascript">
+    // 申请签约
+        $(".signing").on('click',function(){
+            $(".signing_popup,.mask_layer").fadeIn();
+        });
+
+        $(".submit_applications").on('click',function(){
+             $(".signing_popup,.mask_layer").fadeOut();
+        })
+    </script>
+
+    <!-- 友情链接 begin -->
+    <div class="links">
+    <div class="container">
+            <h5>友情链接</h5>
+            <ul>
+                <li><a href="">暗夜文学网 </a></li>
+                <li><a href=""> 红袖添香</a></li>
+                <li><a href="">龙的天空</a></li>
+                <li><a href="">起点 </a></li>
+                <li><a href="">红薯小说网</a></li>
+                <li><a href=""> 酷匠网 </a></li>
+                <li><a href="">九库文学</a></li>
+                <li><a href="">浩阅文学网</a></li>
+                <li><a href="">话本</a></li>
+                <li><a href="">汤圆创作</a></li>
+                <li><a href="">互觅交友社区 </a></li>
+                <li><a href="">魔情小说网 </a></li>
+                <li><a href="">福利 </a></li>
+                <li><a href="">兽性总裁要够没 </a></li>
+                <li><a href="">腹黑总裁太凶猛 </a></li>
+                <li><a href="">第六只尸虫</a></li>
+                <li><a href="">书丛网 </a></li>
+                <li><a href="">悠空网 </a></li>
+                <li><a href="">安卓读书</a></li>
+                <li><a href="">蜜阅书苑</a></li>
+                <li><a href=""> 悦读</a></li>
+                <li><a href="">坊阅读小说网</a></li>
+                <li><a href="">巨匠网 </a></li>
+                <li><a href=""> 朵米网 </a></li>
+                <li><a href="">沃读文学网  </a></li>
+                <li><a href="">龙阅读 </a></li>
+                <li><a href="">藤痕书院</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 友情链接 end -->
+
+    <!-- footer begin -->
+    <div class="footer">
+        <div class="footer_nav">
+            <ul>
+                <li><a href="">首页 </a></li>
+                <li><a href="">书库</a></li>
+                <li><a href="">排行榜</a></li>
+                <li><a href="">作者福利 </a></li>
+                <li><a href="">手机网站 </a></li>
+            </ul>
+        </div>
+        <p>客服邮箱：kefu@xinxinwx.com 电话：400-0000000 QQ：1234567</p>
+        <p>网站备案/许可证号:粤ICP备0000000号</p>
+        <p>Copyright © 2016 xinxinwx.com All rights reserved.</p>
+        <p>心信文学小说网  联系地址：心信文学小说网</p>
+    </div>
+    <!-- footer end -->
+</body>
+</html>

@@ -1,0 +1,1382 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
+     <!--ie6兼容-->
+    <!--[if IE 6]>
+        <script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script type="text/javascript">
+        DD_belatedPNG.fix('*');
+        </script>
+    <![endif]-->  
+    <!--[if IE]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+   
+<!-- 目录菜单 -->
+<ul id="catalog">
+    <li><a href="index.html">首页</a></li>
+    <li><a href="4排行榜-列表.html">4排行榜-列表</a></li>
+    <li><a href="5作者福利.html">5作者福利</a></li>
+    <li><a href="6作品详情.html">6作品详情</a></li>
+    <li><a href="8作品阅读页.html">8作品阅读页</a></li>
+    <li><a href="9登录.html">9登录</a></li>
+    <li><a href="10注册.html">10注册</a></li>
+    <li><a href="11个人中心-基本信息.html">11个人中心-基本信息</a></li>
+    <li><a href="12个人中心-修改密码.html">12个人中心-修改密码</a></li>
+    <li><a href="13我的书架-书架.html">13我的书架-书架</a></li>
+    <li><a href="15我的书架-我的订阅.html">15我的书架-我的订阅</a></li>
+    <li><a href="16我的账户.html">16我的账户</a></li>
+    <li><a href="17充值.html">17充值</a></li>
+    <li><a href="18充值-确认支付.html">18充值-确认支付</a></li>
+    <li><a href="19充值记录.html">19充值记录</a></li>
+    <li><a href="20消费记录.html">20消费记录</a></li>
+    <li><a href="21我的消息.html">21我的消息</a></li>
+    <li><a href="22我的消息-内页.html">22我的消息-内页</a></li>
+    <li><a href="23我要当作家.html">23我要当作家</a></li>
+    <li><a href="24作者后台-公告.html">24作者后台-公告</a></li>
+    <li><a href="25作者后台-公告-内页.html">25作者后台-公告-内页</a></li>
+    <li><a href="26作者后台-新建作品.html">26作者后台-新建作品</a></li>
+    <li><a href="27作者后台-作品管理.html">27作者后台-作品管理</a></li>
+    <li><a href="28作者后台-作品更新.html">28作者后台-作品更新</a></li>
+    <li><a href="29作者后台-作家信息.html">29作者后台-作家信息</a></li>
+    <li><a href="30作者后台-书评管理.html">30作者后台-书评管理</a></li>
+    <li><a href="31作者后台-收入管理-1.html">31作者后台-收入管理-1</a></li>
+</ul>
+
+<!-- 头部内容 begin -->
+    <div class="header col-12">
+        <div class="container">
+            <p class="pull-left">从电脑上导入书籍</p>
+            <ul class="pull-right">
+                <li><a href="">登录<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                <li><a href="">注册</a></li>
+                <li><a href="">作者中心</a></li>
+                <li><a href="">充值</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部内容 end -->
+
+    <!-- 搜索内容 begin -->
+    <div class="search col-12">
+        <div class="container">
+            <img src="images/logo.png" class="logo pull-left"/>
+            <form method="post" action="" class="Myform pull-left">
+                <input type="text" placeholder="请输入书名或作者姓名或标签"/>
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+            <dl class="head_book pull-right">
+                <dt>我的订阅</dt>
+                <dd>我的书架</dd>
+            </dl>
+        </div>
+    </div>
+    <!-- 搜索内容 end -->
+
+    <!-- 导航菜单begin -->
+    <div class="nav container">
+        <ul id="nav">
+            <li class="on"><a href="index.html">首页</a></li>
+            <li><a href="书库.html">书库</a></li>
+            <li><a href="排行榜.html">排行榜</a></li>
+            <li><a href="">作者福利</a></li>
+            <li><a href="">手机网站</a></li>
+        </ul>
+    </div>
+    <!-- 导航菜单end -->
+
+    <!-- banner begin -->
+    <div class="banner col-12">
+       <div id="focus" class="focus">
+            <ul>
+                <li><a href=""><img src="images/banner.png" alt=""/></a></li>
+                <li><a href=""><img src="images/banner.png" alt=""/></a></li>
+                <li><a href=""><img src="images/banner.png" alt=""/></a></li>
+                <li><a href=""><img src="images/banner.png" alt=""/></a></li>
+                <li><a href=""><img src="images/banner.png" alt=""/></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clearifx"></div>
+
+    <!-- banner end -->
+
+    <!-- 标签搜索 begin -->
+  <div class="container">
+    <div class="Tags_Search col-12">
+            <div class="Tags_Search_con pull-left Novel_title" id="Tags_Search">
+                <ul style="display:block;">
+                    <li><a href="">热血1</a></li>
+                    <li><a href="">虐心 </a></li>
+                    <li><a href="">复仇</a></li>
+                    <li><a href="">争霸 </a></li>
+                    <li><a href="">萌系仙侠</a></li>
+                    <li><a href="">神医 </a></li>
+                    <li><a href=""> 宫闱风云</a></li>
+                    <li><a href="">傻白甜</a></li>
+                    <li><a href="">失忆梗</a></li>
+                    <li><a href="">士兵同人</a></li>
+                    <li><a href="">养成系</a></li>
+                    <li><a href="">幻境</a></li>
+                    <li><a href=""> 犯罪心理 </a></li>
+                    <li><a href="">宝莲灯警匪</a></li>
+                    <li><a href="">温暖 </a></li>
+                    <li><a href="">fate同人</a></li>
+                    <li><a href="">温馨清水 </a></li>
+                    <li><a href="">萌物</a></li>
+                    <li><a href="">网球</a></li>
+                    <li><a href="">萌系可爱流 </a></li>
+                    <li><a href="">动漫同人</a></li>
+                    <li><a href="">可爱</a></li>
+                    <li><a href="">女主</a></li>
+                    <li><a href="">灵异恐怖</a></li>
+                    <li><a href="">喜剧</a></li>
+                    <li><a href=""> 神 </a></li>
+                    <li><a href="">商斗</a></li>
+                    <li><a href="">冷酷 </a></li>
+                    <li><a href="">教主</a></li>
+                    <li><a href="">无虐</a></li>
+                    <li><a href=""> 嬉笑打</a></li>
+                    <li><a href="">闹 </a></li>
+                    <li><a href="">蛇祖</a></li>
+                    <li><a href="">cp教授</a></li>
+                    <li><a href="">治愈</a></li>
+                    <li><a href="">谍战 </a></li>
+                    <li><a href="">吐槽</a></li>
+                    <li><a href=""> 病毒 </a></li>
+                    <li><a href="">缘分</a></li>
+                    <li><a href="">人兽</a></li>
+                    <li><a href="">虐·恋情深</a></li>
+                    <li><a href="">科幻网游 </a></li>
+                    <li><a href="">复仇</a></li>
+                    <li><a href="">争霸 </a></li>
+                    <li><a href="">萌系仙侠 </a></li>
+                    <li><a href="">动漫同人 </a></li>
+                    <li><a href="">可爱</a></li>  
+                </ul>
+                 <ul>
+                    <li><a href="">热血2</a></li>
+                    <li><a href="">虐心 </a></li>
+                    <li><a href="">复仇</a></li>
+                    <li><a href="">争霸 </a></li>
+                    <li><a href="">萌系仙侠</a></li>
+                    <li><a href="">神医 </a></li>
+                    <li><a href=""> 宫闱风云</a></li>
+                    <li><a href="">傻白甜</a></li>
+                    <li><a href="">失忆梗</a></li>
+                    <li><a href="">士兵同人</a></li>
+                    <li><a href="">养成系</a></li>
+                    <li><a href="">幻境</a></li>
+                    <li><a href=""> 犯罪心理 </a></li>
+                    <li><a href="">宝莲灯警匪</a></li>
+                    <li><a href="">温暖 </a></li>
+                    <li><a href="">fate同人</a></li>
+                    <li><a href="">温馨清水 </a></li>
+                    <li><a href="">萌物</a></li>
+                    <li><a href="">网球</a></li>
+                    <li><a href="">萌系可爱流 </a></li>
+                    <li><a href="">动漫同人</a></li>
+                    <li><a href="">可爱</a></li>
+                    <li><a href="">女主</a></li>
+                    <li><a href="">灵异恐怖</a></li>
+                    <li><a href="">喜剧</a></li>
+                    <li><a href=""> 神 </a></li>
+                    <li><a href="">商斗</a></li>
+                    <li><a href="">冷酷 </a></li>
+                    <li><a href="">教主</a></li>
+                    <li><a href="">无虐</a></li>
+                    <li><a href=""> 嬉笑打</a></li>
+                    <li><a href="">闹 </a></li>
+                    <li><a href="">蛇祖</a></li>
+                    <li><a href="">cp教授</a></li>
+                    <li><a href="">治愈</a></li>
+                    <li><a href="">谍战 </a></li>
+                    <li><a href="">吐槽</a></li>
+                    <li><a href=""> 病毒 </a></li>
+                    <li><a href="">缘分</a></li>
+                    <li><a href="">人兽</a></li>
+                    <li><a href="">虐·恋情深</a></li>
+                    <li><a href="">科幻网游 </a></li>
+                    <li><a href="">复仇</a></li>
+                    <li><a href="">争霸 </a></li>
+                    <li><a href="">萌系仙侠 </a></li>
+                    <li><a href="">动漫同人 </a></li>
+                    <li><a href="">可爱</a></li>  
+                </ul>
+
+                 <ul>
+                    <li><a href="">热血3</a></li>
+                    <li><a href="">虐心 </a></li>
+                    <li><a href="">复仇</a></li>
+                    <li><a href="">争霸 </a></li>
+                    <li><a href="">萌系仙侠</a></li>
+                    <li><a href="">神医 </a></li>
+                    <li><a href=""> 宫闱风云</a></li>
+                    <li><a href="">傻白甜</a></li>
+                    <li><a href="">失忆梗</a></li>
+                    <li><a href="">士兵同人</a></li>
+                    <li><a href="">养成系</a></li>
+                    <li><a href="">幻境</a></li>
+                    <li><a href=""> 犯罪心理 </a></li>
+                    <li><a href="">宝莲灯警匪</a></li>
+                    <li><a href="">温暖 </a></li>
+                    <li><a href="">fate同人</a></li>
+                    <li><a href="">温馨清水 </a></li>
+                    <li><a href="">萌物</a></li>
+                    <li><a href="">网球</a></li>
+                    <li><a href="">萌系可爱流 </a></li>
+                    <li><a href="">动漫同人</a></li>
+                    <li><a href="">可爱</a></li>
+                    <li><a href="">女主</a></li>
+                    <li><a href="">灵异恐怖</a></li>
+                    <li><a href="">喜剧</a></li>
+                    <li><a href=""> 神 </a></li>
+                    <li><a href="">商斗</a></li>
+                    <li><a href="">冷酷 </a></li>
+                    <li><a href="">教主</a></li>
+                    <li><a href="">无虐</a></li>
+                    <li><a href=""> 嬉笑打</a></li>
+                    <li><a href="">闹 </a></li>
+                    <li><a href="">蛇祖</a></li>
+                    <li><a href="">cp教授</a></li>
+                    <li><a href="">治愈</a></li>
+                    <li><a href="">谍战 </a></li>
+                    <li><a href="">吐槽</a></li>
+                    <li><a href=""> 病毒 </a></li>
+                    <li><a href="">缘分</a></li>
+                    <li><a href="">人兽</a></li>
+                    <li><a href="">虐·恋情深</a></li>
+                    <li><a href="">科幻网游 </a></li>
+                    <li><a href="">复仇</a></li>
+                    <li><a href="">争霸 </a></li>
+                    <li><a href="">萌系仙侠 </a></li>
+                    <li><a href="">动漫同人 </a></li>
+                    <li><a href="">可爱</a></li>  
+                </ul>
+            </div>
+            <dl class="pull-right Search_btn ">
+                <a href="javascript:Viewpoints()">换一换</a>  
+                <a href="#">标签搜索</a>  
+            </dl>
+        </div>
+    </div>
+    <!-- 标签搜索 end -->
+
+    <!-- 主编推荐 begin -->
+    <div class="recommend index_common container">
+        <div class="con_left pull-left">
+            <h4 class="title"><span>主编推荐</span></h4>
+            <ul class="book_article">
+                <li>
+                    <dl>
+                        <dt><img src="images/pic1.png" /></dt>
+                        <dd>
+                            <h5>微微一笑很倾城</h5>
+                            <span>作者：<font color="#000">顾漫</font></span>
+                            <p class="txt">她说，这世上必有一个人，会和她不离不弃宠辱与共，如果现在还没有，那是她没有找到，不够幸运，而不是他不存在……</p>
+                            <p class="book_btn">
+                                <a href="#" class="collect">收藏</a>
+                                <a href="#" class="read">阅读</a>
+                            </p>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><img src="images/pic2.png" /></dt>
+                        <dd>
+                            <h5>总裁霸爱契约妻</h5>
+                            <span>作者：<font color="#000">顾漫</font></span>
+                            <p class="txt">她说，这世上必有一个人，会和她不离不弃宠辱与共，如果现在还没有，那是她没有找到，不够幸运，而不是他不存在……</p>
+                            <p class="book_btn">
+                                <a href="#" class="collect">收藏</a>
+                                <a href="#" class="read">阅读</a>
+                            </p>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+            <div class="clearifx"></div>
+            <div class="book_grids">
+                <dl>
+                    <dt class="pull-left"><a href="">亿万强宠：霸上小娇妻</a></dt>
+                    <dd class="pull-right">一觉醒来，她稀里糊涂被人暴打，还拉去还债献血。<br/>他是权势滔天的蔺氏至高无上总裁，邪魅无情，当她一步步沦陷在他的陷阱里..</dd>
+                </dl>
+                <dl>
+                    <dt class="pull-left"><a href="">鲜妻嫁到：老公，别来无恙</a></dt>
+                    <dd class="pull-right">一觉醒来，她稀里糊涂被人暴打，还拉去还债献血。<br/>他是权势滔天的蔺氏至高无上总裁，邪魅无情，当她一步步沦陷在他的陷阱里..</dd>
+                </dl>
+                <dl>
+                    <dt class="pull-left"><a href="">我的惹火女员工</a></dt>
+                    <dd class="pull-right">一觉醒来，她稀里糊涂被人暴打，还拉去还债献血。<br/>他是权势滔天的蔺氏至高无上总裁，邪魅无情，当她一步步沦陷在他的陷阱里..</dd>
+                </dl>
+                <dl>
+                    <dt class="pull-left"><a href="">亿万强宠：霸上小娇妻</a></dt>
+                    <dd class="pull-right">一觉醒来，她稀里糊涂被人暴打，还拉去还债献血。<br/>他是权势滔天的蔺氏至高无上总裁，邪魅无情，当她一步步沦陷在他的陷阱里..</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="con_right pull-right Context_Switch" id="Context_Switch3">
+            <div class="title">
+                <h4 class="on">现言订阅榜</h4>
+                <h4> 古言订阅榜 </h4>
+            </div>
+            <div class="image-text_con">
+                <div class="image-text" style="display:block;">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt <a href=""><span>1</span>婚后试爱：机灵宝宝争宠</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>2</span>王妃水嫩：王爷你好坏</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>3</span>一吻成欢：总裁的贴身小女佣</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>4</span>重生豪门之强势归来</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>5</span>炽焰豪门：boss老公诱妻成瘾</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>6</span>恐怖尸香</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>7</span>超级邪少闯都市</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>8</span>恶魔总裁的小妻子</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                          <h6><a href="" class="more">查看更多</a></h6>
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-text">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt <a href=""><span>1</span>婚后试爱：机灵宝宝争宠</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>2</span>王妃水嫩：王爷你好坏</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>3</span>一吻成欢：总裁的贴身小女佣</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>4</span>重生豪门之强势归来</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>5</span>炽焰豪门：boss老公诱妻成瘾</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>6</span>恐怖尸香</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>7</span>超级邪少闯都市</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt <a href=""><span>8</span>恶魔总裁的小妻子</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                          <h6><a href="" class="more">查看更多</a></h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主编推荐 end -->
+
+    <!-- 现代言情 begin -->
+    <div class="recommend index_common container">
+        <div class="con_left pull-left">
+            <h4 class="title"><span>现代言情</span></h4>
+            <div class="clearifx"></div>
+            <div class="flash">
+                <div class="lunbo" id="lunbo_first">
+                    <ul>
+                        <li><a href=""><img src="images/banner2.png" /></a></li>
+                        <li><a href=""><img src="images/banner2.png" /></a></li>
+                        <li><a href=""><img src="images/banner2.png" /></a></li>
+                        <li><a href=""><img src="images/banner2.png" /></a></li>
+                        <li><a href=""><img src="images/banner2.png" /></a></li>
+                    </ul>
+                    <ol class="iconf">
+                        <li class="on"><img src="images/banner2.png" /></li>
+                        <li><img src="images/banner2.png" /></li>
+                        <li><img src="images/banner2.png" /></li>
+                        <li><img src="images/banner2.png" /></li>
+                        <li><img src="images/banner2.png" /></li>
+                    </ol>
+                </div>
+                <div class="describe describe_first">
+                    <p>
+                        <span class="title"><a href="">1情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                    <p>
+                        <span class="title"><a href="">2情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                    <p>
+                        <span class="title"><a href="">3情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                    <p>
+                        <span class="title"><a href="">4情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                    <p>
+                        <span class="title"><a href="">5情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                </div>
+            </div>
+            <div class="book_grids book_grids  Modern_romance">
+                <dl>
+                    <dt><a href="">亿万强宠：霸上小娇妻</a></dt>
+                    <dd>“你确定要结婚？”她看了眼裸着上身的他，猛烈点头。“这是最后一次陪你，从今以后我们没有什么关系！”<br/>“这下知道我的金箍棒不短了吧？”<br/>“你混蛋！”...</dd>
+                </dl>
+                <dl>
+                    <dt><a href="">亿万强宠：霸上小娇妻</a></dt>
+                    <dd>“你确定要结婚？”她看了眼裸着上身的他，猛烈点头。“这是最后一次陪你，从今以后我们没有什么关系！”<br/>“这下知道我的金箍棒不短了吧？”<br/>“你混蛋！”...</dd>
+                </dl>
+                <dl>
+                    <dt><a href="">亿万强宠：霸上小娇妻</a></dt>
+                    <dd>“你确定要结婚？”她看了眼裸着上身的他，猛烈点头。“这是最后一次陪你，从今以后我们没有什么关系！”<br/>“这下知道我的金箍棒不短了吧？”<br/>“你混蛋！”...</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="con_right pull-right Context_Switch" id="Context_Switch2">
+            <div class="title">
+                <h4 class="on">现言收藏榜</h4>
+                <h4> 古言收藏榜 </h4>
+            </div>
+            <div class="image-text_con">
+                <div class="image-text" style="display:block;">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt> <a href=""><span>1</span>婚后试爱：机灵宝宝争宠</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>2</span>王妃水嫩：王爷你好坏</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>3</span>一吻成欢：总裁的贴身小女佣</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>4</span>重生豪门之强势归来</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>5</span>炽焰豪门：boss老公诱妻成瘾</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>6</span>恐怖尸香</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>7</span>超级邪少闯都市</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>8</span>恶魔总裁的小妻子</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                          <h6><a href="" class="more">查看更多</a></h6>
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-text">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt> <a href=""><span>1</span>婚后试爱：机灵宝宝争宠</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>2</span>王妃水嫩：王爷你好坏</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>3</span>一吻成欢：总裁的贴身小女佣</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>4</span>重生豪门之强势归来</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>5</span>炽焰豪门：boss老公诱妻成瘾</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>6</span>恐怖尸香</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>7</span>超级邪少闯都市</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>8</span>恶魔总裁的小妻子</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                          <h6><a href="" class="more">查看更多</a></h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 现代言情 end -->
+
+    <!-- 古代言情 begin -->
+    <div class="recommend index_common container">
+        <div class="con_left pull-left">
+            <h4 class="title"><span>古代言情</span></h4>
+            <div class="clearifx"></div>
+            <div class="flash">
+                <div class="lunbo" id="lunbo_two">
+                    <ul>
+                        <li><a href=""><img src="images/banner3.png" /></a></li>
+                        <li><a href=""><img src="images/banner3.png" /></a></li>
+                        <li><a href=""><img src="images/banner3.png" /></a></li>
+                        <li><a href=""><img src="images/banner3.png" /></a></li>
+                        <li><a href=""><img src="images/banner3.png" /></a></li>
+                    </ul>
+                    <ol class="iconf">
+                        <li class="on"><img src="images/banner2.png" /></li>
+                        <li><img src="images/banner3.png" /></li>
+                        <li><img src="images/banner3.png" /></li>
+                        <li><img src="images/banner3.png" /></li>
+                        <li><img src="images/banner3.png" /></li>
+                    </ol>
+                </div>
+                <div class="describe describe_two">
+                    <p>
+                        <span class="title"><a href="">情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                    <p>
+                        <span class="title"><a href="">情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                    <p>
+                        <span class="title"><a href="">情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                    <p>
+                        <span class="title"><a href="">情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                    <p>
+                        <span class="title"><a href="">情到深处自然爱</a></span>
+                        <span class="txt">因为十多年前的救命之恩，她让出了自己的父亲，更让出了自己的未婚夫。...</span>
+                    </p>
+                </div>
+            </div>
+            <div class="book_grids book_grids  Modern_romance">
+                <dl>
+                    <dt><a href="">亿万强宠：霸上小娇妻</a></dt>
+                    <dd>“你确定要结婚？”她看了眼裸着上身的他，猛烈点头。“这是最后一次陪你，从今以后我们没有什么关系！”<br/>“这下知道我的金箍棒不短了吧？”<br/>“你混蛋！”...</dd>
+                </dl>
+                <dl>
+                    <dt><a href="">亿万强宠：霸上小娇妻</a></dt>
+                    <dd>“你确定要结婚？”她看了眼裸着上身的他，猛烈点头。“这是最后一次陪你，从今以后我们没有什么关系！”<br/>“这下知道我的金箍棒不短了吧？”<br/>“你混蛋！”...</dd>
+                </dl>
+                <dl>
+                    <dt><a href="">亿万强宠：霸上小娇妻</a></dt>
+                    <dd>“你确定要结婚？”她看了眼裸着上身的他，猛烈点头。“这是最后一次陪你，从今以后我们没有什么关系！”<br/>“这下知道我的金箍棒不短了吧？”<br/>“你混蛋！”...</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="con_right pull-right Context_Switch" id="Context_Switch1">
+            <div class="title">
+                <h4 class="on">现言打赏榜</h4>
+                <h4> 古言打赏榜 </h4>
+            </div>
+            <div class="image-text_con">
+                <div class="image-text" style="display:block;">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt> <a href=""><span>1</span>婚后试爱：机灵宝宝争宠</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>2</span>王妃水嫩：王爷你好坏</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>3</span>一吻成欢：总裁的贴身小女佣</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>4</span>重生豪门之强势归来</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>5</span>炽焰豪门：boss老公诱妻成瘾</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>6</span>恐怖尸香</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>7</span>超级邪少闯都市</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>8</span>恶魔总裁的小妻子</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                          <h6><a href="" class="more">查看更多</a></h6>
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-text">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt> <a href=""><span>1</span>婚后试爱：机灵宝宝争宠</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>2</span>王妃水嫩：王爷你好坏</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>3</span>一吻成欢：总裁的贴身小女佣</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>4</span>重生豪门之强势归来</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>5</span>炽焰豪门：boss老公诱妻成瘾</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>6</span>恐怖尸香</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>7</span>超级邪少闯都市</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                         <li>
+                            <dl>
+                                <dt> <a href=""><span>8</span>恶魔总裁的小妻子</a></dt>
+                                <dd>
+                                    <img src="images/pic3.png" />
+                                    <div class="text">
+                                        <span>作者：<font color="#000">摸摸大</font></span>
+                                        <p>十八岁的慕初夏走投无路签下一份生子契约！成为了宫氏集团少总裁宫辰逸的代孕妈妈！ 一百万，买下一个孩子！</p>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                          <h6><a href="" class="more">查看更多</a></h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 古代言情 end -->
+
+    <!-- 更新列表 begin -->
+    <div class="container">
+        <div class="Update_List index_common">
+            <div class="title">
+                <p>
+                    <a href="javascript:;" class="on">更新列表</a>
+                    <a href="javascript:;">免费图书</a>
+                    <a href="javascript:;">vip图书</a>
+                </p>
+            </div>
+            <div class="Tab_article">
+                <ul class="book_article Update_List_article" style="display:block;">
+                    <li>
+                        <dl>
+                            <dt>><img src="images/pic1.png" /></dt>
+                            <dd>
+                                <h5>微微一笑很倾城</h5>
+                                <span>作者：<font color="#000">顾漫</font></span><span> 分类：<font color="#000">现代言情</font></span><span>更新时间：<font color="#000">2016-09-09</font></span>
+                                <p class="txt">她被相恋两年的男友设计成为其他男人的女人。再转身，她跟这个男人重逢，却不料陷入了一场生死搏斗之中，她这才知道，原来这个...</p>
+                                <p class="book_btn">
+                                   <a href="#" class="collect">收藏</a>
+                                    <a href="#" class="recommend">推荐</a>
+                                    <a href="#" class="section">章节</a>
+                                    <a href="#" class="read">阅读</a>
+                                </p>
+                            </dd>
+                        </dl>
+
+                        <p class="Novel_title">
+                            <a href="">豪门总裁</a>
+                            <a href="">腹 黑 </a>
+                            <a href="">宠 文</a>
+                            <a href="">好看的小说</a>
+                        </p>
+                    </li>
+                     <li>
+                        <dl>
+                            <dt><img src="images/pic1.png" /></dt>
+                            <dd>
+                                <h5>微微一笑很倾城</h5>
+                                <span>作者：<font color="#000">顾漫</font></span><span> 分类：<font color="#000">现代言情</font></span><span>更新时间：<font color="#000">2016-09-09</font></span>
+                                <p class="txt">她被相恋两年的男友设计成为其他男人的女人。再转身，她跟这个男人重逢，却不料陷入了一场生死搏斗之中，她这才知道，原来这个...</p>
+                                <p class="book_btn">
+                                    <a href="#" class="collect">收藏</a>
+                                    <a href="#" class="recommend">推荐</a>
+                                    <a href="#" class="section">章节</a>
+                                    <a href="#" class="read">阅读</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <p class="Novel_title" >
+                            <a href="">暧 昧</a>
+                            <a href="">特种兵 </a>
+                            <a href="">热 血</a>
+                            <a href="">好看的小说</a>
+                        </p>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>><img src="images/pic1.png" /></dt>
+                            <dd>
+                                <h5>微微一笑很倾城</h5>
+                                <span>作者：<font color="#000">顾漫</font></span><span> 分类：<font color="#000">现代言情</font></span><span>更新时间：<font color="#000">2016-09-09</font></span>
+                                <p class="txt">她被相恋两年的男友设计成为其他男人的女人。再转身，她跟这个男人重逢，却不料陷入了一场生死搏斗之中，她这才知道，原来这个...</p>
+                                <p class="book_btn">
+                                    <a href="#" class="collect">收藏</a>
+                                    <a href="#" class="recommend">推荐</a>
+                                    <a href="#" class="section">章节</a>
+                                    <a href="#" class="read">阅读</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <p class="Novel_title">
+                            <a href="">一见钟情</a>
+                            <a href="">好看的小说 </a>
+                            <a href="">豪门总裁</a>
+                            <a href="">宠 文</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul class="book_article Update_List_article">
+                    <li>
+                        <dl>
+                            <dt>><img src="images/pic1.png" /></dt>
+                            <dd>
+                                <h5>微微一笑很倾城</h5>
+                                <span>作者：<font color="#000">顾漫</font></span><span> 分类：<font color="#000">现代言情</font></span><span>更新时间：<font color="#000">2016-09-09</font></span>
+                                <p class="txt">她被相恋两年的男友设计成为其他男人的女人。再转身，她跟这个男人重逢，却不料陷入了一场生死搏斗之中，她这才知道，原来这个...</p>
+                                <p class="book_btn">
+                                    <a href="#" class="collect">收藏</a>
+                                    <a href="#" class="recommend">推荐</a>
+                                    <a href="#" class="section">章节</a>
+                                    <a href="#" class="read">阅读</a>
+                                </p>
+                            </dd>
+                        </dl>
+
+                        <p class="Novel_title">
+                            <a href="">豪门总裁</a>
+                            <a href="">腹 黑 </a>
+                            <a href="">宠 文</a>
+                            <a href="">好看的小说</a>
+                        </p>
+                    </li>
+                     <li>
+                        <dl>
+                            <dt>><img src="images/pic1.png" /></dt>
+                            <dd>
+                                <h5>微微一笑很倾城</h5>
+                                <span>作者：<font color="#000">顾漫</font></span><span> 分类：<font color="#000">现代言情</font></span><span>更新时间：<font color="#000">2016-09-09</font></span>
+                                <p class="txt">她被相恋两年的男友设计成为其他男人的女人。再转身，她跟这个男人重逢，却不料陷入了一场生死搏斗之中，她这才知道，原来这个...</p>
+                                <p class="book_btn">
+                                    <a href="#" class="collect">收藏</a>
+                                    <a href="#" class="recommend">推荐</a>
+                                    <a href="#" class="section">章节</a>
+                                    <a href="#" class="read">阅读</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <p class="Novel_title">
+                            <a href="">暧 昧</a>
+                            <a href="">特种兵 </a>
+                            <a href="">热 血</a>
+                            <a href="">好看的小说</a>
+                        </p>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>><img src="images/pic1.png" /></dt>
+                            <dd>
+                                <h5>微微一笑很倾城</h5>
+                                <span>作者：<font color="#000">顾漫</font></span><span> 分类：<font color="#000">现代言情</font></span><span>更新时间：<font color="#000">2016-09-09</font></span>
+                                <p class="txt">她被相恋两年的男友设计成为其他男人的女人。再转身，她跟这个男人重逢，却不料陷入了一场生死搏斗之中，她这才知道，原来这个...</p>
+                                <p class="book_btn">
+                                   <a href="#" class="collect">收藏</a>
+                                    <a href="#" class="recommend">推荐</a>
+                                    <a href="#" class="section">章节</a>
+                                    <a href="#" class="read">阅读</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <p class="Novel_title">
+                            <a href="">一见钟情</a>
+                            <a href="">好看的小说 </a>
+                            <a href="">豪门总裁</a>
+                            <a href="">宠 文</a>
+                        </p>
+                    </li>
+                </ul>
+                <ul class="book_article Update_List_article">
+                    <li>
+                        <dl>
+                            <dt>><img src="images/pic1.png" /></dt>
+                            <dd>
+                                <h5>微微一笑很倾城</h5>
+                                <span>作者：<font color="#000">顾漫</font></span><span> 分类：<font color="#000">现代言情</font></span><span>更新时间：<font color="#000">2016-09-09</font></span>
+                                <p class="txt">她被相恋两年的男友设计成为其他男人的女人。再转身，她跟这个男人重逢，却不料陷入了一场生死搏斗之中，她这才知道，原来这个...</p>
+                                <p class="book_btn">
+                                    <a href="#" class="collect">收藏</a>
+                                    <a href="#" class="recommend">推荐</a>
+                                    <a href="#" class="section">章节</a>
+                                    <a href="#" class="read">阅读</a>
+                                </p>
+                            </dd>
+                        </dl>
+
+                        <p class="Novel_title">
+                            <a href="">豪门总裁</a>
+                            <a href="">腹 黑 </a>
+                            <a href="">宠 文</a>
+                            <a href="">好看的小说</a>
+                        </p>
+                    </li>
+                     <li>
+                        <dl>
+                            <dt>><img src="images/pic1.png" /></dt>
+                            <dd>
+                                <h5>微微一笑很倾城</h5>
+                                <span>作者：<font color="#000">顾漫</font></span><span> 分类：<font color="#000">现代言情</font></span><span>更新时间：<font color="#000">2016-09-09</font></span>
+                                <p class="txt">她被相恋两年的男友设计成为其他男人的女人。再转身，她跟这个男人重逢，却不料陷入了一场生死搏斗之中，她这才知道，原来这个...</p>
+                                <p class="book_btn">
+                                    <a href="#" class="collect">收藏</a>
+                                    <a href="#" class="recommend">推荐</a>
+                                    <a href="#" class="section">章节</a>
+                                    <a href="#" class="read">阅读</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <p class="Novel_title">
+                            <a href="">暧 昧</a>
+                            <a href="">特种兵 </a>
+                            <a href="">热 血</a>
+                            <a href="">好看的小说</a>
+                        </p>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>><img src="images/pic1.png" /></dt>
+                            <dd>
+                                <h5>微微一笑很倾城</h5>
+                                <span>作者：<font color="#000">顾漫</font></span><span> 分类：<font color="#000">现代言情</font></span><span>更新时间：<font color="#000">2016-09-09</font></span>
+                                <p class="txt">她被相恋两年的男友设计成为其他男人的女人。再转身，她跟这个男人重逢，却不料陷入了一场生死搏斗之中，她这才知道，原来这个...</p>
+                                <p class="book_btn">
+                                   <a href="#" class="collect">收藏</a>
+                                    <a href="#" class="recommend">推荐</a>
+                                    <a href="#" class="section">章节</a>
+                                    <a href="#" class="read">阅读</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <p class="Novel_title">
+                            <a href="">一见钟情</a>
+                            <a href="">好看的小说 </a>
+                            <a href="">豪门总裁</a>
+                            <a href="">宠 文</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 更新列表 end -->
+
+    <!-- 友情链接 begin -->
+    <div class="links">
+    <div class="container">
+            <h5>友情链接</h5>
+            <ul>
+                <li><a href="">暗夜文学网 </a></li>
+                <li><a href=""> 红袖添香</a></li>
+                <li><a href="">龙的天空</a></li>
+                <li><a href="">起点 </a></li>
+                <li><a href="">红薯小说网</a></li>
+                <li><a href=""> 酷匠网 </a></li>
+                <li><a href="">九库文学</a></li>
+                <li><a href="">浩阅文学网</a></li>
+                <li><a href="">话本</a></li>
+                <li><a href="">汤圆创作</a></li>
+                <li><a href="">互觅交友社区 </a></li>
+                <li><a href="">魔情小说网 </a></li>
+                <li><a href="">福利 </a></li>
+                <li><a href="">兽性总裁要够没 </a></li>
+                <li><a href="">腹黑总裁太凶猛 </a></li>
+                <li><a href="">第六只尸虫</a></li>
+                <li><a href="">书丛网 </a></li>
+                <li><a href="">悠空网 </a></li>
+                <li><a href="">安卓读书</a></li>
+                <li><a href="">蜜阅书苑</a></li>
+                <li><a href=""> 悦读</a></li>
+                <li><a href="">坊阅读小说网</a></li>
+                <li><a href="">巨匠网 </a></li>
+                <li><a href=""> 朵米网 </a></li>
+                <li><a href="">沃读文学网  </a></li>
+                <li><a href="">龙阅读 </a></li>
+                <li><a href="">藤痕书院</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 友情链接 end -->
+
+    <!-- footer begin -->
+    <div class="footer">
+        <div class="footer_nav">
+            <ul>
+                <li><a href="">首页 </a></li>
+                <li><a href="">书库</a></li>
+                <li><a href="">排行榜</a></li>
+                <li><a href="">作者福利 </a></li>
+                <li><a href="">手机网站 </a></li>
+            </ul>
+        </div>
+        <p>客服邮箱：kefu@xinxinwx.com 电话：400-0000000 QQ：1234567</p>
+        <p>网站备案/许可证号:粤ICP备0000000号</p>
+        <p>Copyright © 2016 xinxinwx.com All rights reserved.</p>
+        <p>心信文学小说网  联系地址：心信文学小说网</p>
+    </div>
+    <!-- footer end -->
+
+</body>
+</html>
